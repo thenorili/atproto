@@ -47,8 +47,7 @@ type IndexedPost = {
 const lexId = lex.ids.AppBskyFeedPost
 
 const REPLY_NOTIF_DEPTH = 5
-const BLESSED_HELL_THREAD =
-  'at://did:plc:wgaezxqi2spqm3mhrb5xvkzi/app.bsky.feed.post/3juzlwllznd24'
+const BLESSED_HELL_THREAD = Nil
 
 const insertFn = async (
   db: DatabaseSchema,
